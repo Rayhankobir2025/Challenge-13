@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header section css */
+.header{
+    background: #f1f1f1;
+    padding: 15px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header-left {}
+.header-left img {
+	height: auto;
+	width: 120px;
+	margin-left: 40px;
+}
+.header-right{}
+.header-right a {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 40px;
+	background: #4c8ffb;
+	border: 1px solid #2f5bb7;
+	color: #fff;
+	padding: 2px 10px;
+}
+
+/* Middle section css */
+/* Middle left css */
+
+.body-tittle h2 {
+	color: #55555c;
+	font-weight: 500;
+	font-size: 40px;
+}
+.middle-left h3 {
+	color: #737373;
+	font-size: 25px;
+}
+.middle-left p {
+	color: #737373;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.middle-left img {
+	height: ;
+	height: auto;
+	width: 480px;
+}
+
+/* Middle-right section css */
+.middle-right{}
+.bg-form{
+    background: #f1f1f1;
+    padding: 20px 30px;
+}
+.form-group .wight-calc{
+    width: 100px;
+    display: inline;
+}
+
+/* Common lebel style */
+.common-style {
+	color: #222222;
+	font-weight: 600;
+	font-size: 15px;
+}
+.w-48 {
+	margin-right: 5px;
+	width: 171px;
+}
+.w-49 {
+	width: 120px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.w-74 {
+	width: 261px;
+	margin-left: 0px;
+}
+.common-input-style {
+	padding: 0px 10px;
+	height: 32px;
+	font-size: 13px;
+}
+.select-style-css {
+	padding: 6px 4px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 5px;
+    font-size: 14px;
+    background: #f3f3f3;
+}
+.form-check .prove {
+	margin-left: -28px;
+	margin-bottom: 6px;
+	margin-top: 15px !important;
+}
+.form-check-input{
+    font-size: 14px;
+}
+.form-check-label {
+	font-size: 14px;
+	color: #000;
+}
+.robot-img{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.robot-img img{
+    width: 100%;
+}
+.robot-tab {
+    background: #fff;
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.robot-tab h2 {
+	margin-left: 0;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 0px;
+}
+.tab-icon a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 0px;
+}
+.tab-icon a:first-child{
+    margin-left: 8px;
+}
+
+.agree a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.agree a:hover{
+    text-decoration: underline;
+}
+.next-step a{
+    display: inline-block;
+    padding: 4px 10px;
+    background: #4c8efa;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #111;
+    font-size: 14px;
+}
+.bg-bootom p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.bg-bootom a{
+    text-decoration: none;
+}
+.bg-bootom a:hover{
+    text-decoration: underline;
+}
+
+/* Footer section css */
+
+
+
+
+.footer{
+    background: #ffffff;
+    margin-top: 100px;
+    position: relative;
+}
+.main-footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+}
+.footer .privacy ul{
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+.footer .privacy ul li{
+	display: inline-block;
+}
+.footer .privacy ul li a{
+	font-size: 13px;
+	display: inline-block;
+	text-decoration: none;
+	color: #737373;
+	margin-right: 10px;
+}
+.footer .privacy ul li a:hover{
+	text-decoration: underline;
+}
+.language span {
+	color: #fff;
+	background: #000;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 5px;
+	position: relative;
+}
+.language span::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 25px 5.5px 0 5.5px;
+	border-color: #000000 transparent transparent transparent;
+	position: absolute;
+	left: 3px;
+	bottom: -16px;
+	right: 0;
+	transform: rotate(49deg);
+	z-index: -1;
+}
+.language #select-lang{
+	background: #f7f7f7;
+	display: inline-block;
+	padding: 4px 10px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+/* The End */
+/* Finally All Challenge completed...!!! */
+/* All Challenge successfully made by Rayhan Kobir */
